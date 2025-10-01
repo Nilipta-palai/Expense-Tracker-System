@@ -40,7 +40,7 @@ const Signup = () => {
     }
 
     try {
-      const url = "http://localhost:8080/auth/signup";
+      const url = "https://expense-tracker-system-ehgr.onrender.com/auth/signup";
       const response = await fetch(url, {
         method: "POST",
         headers: { 'Content-Type': 'application/json' },

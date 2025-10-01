@@ -22,7 +22,12 @@ app.get('/start',(req,res)=>{
 app.use(bodyParser.json());
 
 //cors allows all to the application
-app.use(cors());
+app.use(cors(
+    {
+        origin:"https://expense-tracker-system-ehgr.onrender.com",
+        credentials:true
+    }
+));
 
 //for all requests
 app.use('/auth',AuthRouter);
