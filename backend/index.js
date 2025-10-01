@@ -19,6 +19,7 @@ app.get('/start',(req,res)=>{
 })
 
 //fetch data from client side and parse it json
+app.use(express.json());
 app.use(bodyParser.json());
 
 //cors allows all to the application
