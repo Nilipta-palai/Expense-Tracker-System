@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 //cors allows all to the application
 app.use(cors(
     {
-        origin:"https://expense-tracker-system-ehgr.onrender.com",
+        origin:"https://expense-tracker-system-87kn.onrender.com",
         credentials:true
     }
 ));

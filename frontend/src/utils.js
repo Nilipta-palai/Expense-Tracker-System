@@ -13,4 +13,4 @@ toast.error(msg,{
 })
 }
 
-export const APIUrl = import.meta.env.VITE_API_URL || 'https://expense-tracker-system-ehgr.onrender.com';
+export const APIUrl = import.meta.env.VITE_API_URL || 'https://expense-tracker-system-87kn.onrender.com';
